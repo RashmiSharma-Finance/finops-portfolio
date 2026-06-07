@@ -3,66 +3,324 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cloud Economics & Financial Engineering Portfolio</title>
+    <title>Executive Portfolio | Cloud Economics & Technical Leadership</title>
     <style>
         :root {
-            --slate: #0f172a;
-            --emerald: #10b981;
-            --text-main: #f8fafc;
-            --text-muted: #94a3b8;
-            --card-bg: #1e293b;
+            --slate-bg: #090d16;
+            --card-bg: #111827;
+            --border-color: #1f2937;
+            --emerald-accent: #10b981;
+            --blue-accent: #3b82f6;
+            --text-primary: #f9fafb;
+            --text-secondary: #9ca3af;
+            --alert-rose: #f43f5e;
         }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background-color: var(--slate);
-            color: var(--text-main);
+            background-color: var(--slate-bg);
+            color: var(--text-primary);
             margin: 0;
-            padding: 2rem;
+            padding: 3rem 1.5rem;
             line-height: 1.6;
         }
+
         .container {
-            max-width: 900px;
+            max-width: 1100px;
             margin: 0 auto;
         }
+
+        /* Executive Header Layout */
         header {
-            border-bottom: 2px solid #334155;
-            padding-bottom: 2rem;
-            margin-bottom: 2rem;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 3rem;
+            margin-bottom: 3rem;
         }
-        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; color: var(--text-main); }
-        .subtitle { font-size: 1.25rem; color: var(--emerald); font-weight: 500; margin-top: 0; }
-        .bio { color: var(--text-muted); font-size: 1.1rem; max-width: 750px; }
-        .grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin-top: 2rem; }
-        .card { background-color: var(--card-bg); border: 1px solid #334155; border-radius: 8px; padding: 1.5rem; }
-        .card-title { font-size: 1.4rem; color: var(--emerald); margin-top: 0; }
-        .tag { display: inline-block; background: #334155; color: var(--text-main); padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.85rem; margin-right: 0.5rem; }
-        .impact { font-weight: bold; color: #f43f5e; margin-top: 1rem; }
-        .btn { display: inline-block; background: var(--emerald); color: var(--slate); padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none; font-weight: bold; margin-top: 1rem; }
+
+        @media (min-width: 768px) {
+            header {
+                grid-template-columns: 2fr 1fr;
+                align-items: center;
+            }
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin: 0 0 0.5rem 0;
+            letter-spacing: -0.04em;
+            background: linear-gradient(to right, #ffffff, #9ca3af);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            font-size: 1.15rem;
+            color: var(--emerald-accent);
+            font-weight: 700;
+            margin: 0 0 1.5rem 0;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .bio {
+            color: var(--text-secondary);
+            font-size: 1.15rem;
+            margin: 0;
+        }
+
+        /* Executive KPI Metrics Board */
+        .metrics-board {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .metric-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 1.25rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .metric-val {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: 0.25rem;
+        }
+
+        .metric-val.green { color: var(--emerald-accent); }
+        .metric-val.blue { color: var(--blue-accent); }
+
+        .metric-label {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            border-left: 4px solid var(--blue-accent);
+            padding-left: 0.75rem;
+        }
+
+        /* Technical Track Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        @media (min-width: 768px) {
+            .grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            border-color: var(--blue-accent);
+            box-shadow: 0 10px 20px -10px rgba(59, 130, 246, 0.2);
+        }
+
+        .card-header h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin: 0 0 0.75rem 0;
+        }
+
+        .tags {
+            margin-bottom: 1.25rem;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: var(--slate-bg);
+            color: var(--text-primary);
+            padding: 0.25rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-family: monospace;
+            border: 1px solid var(--border-color);
+            margin-right: 0.3rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .card-body p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin: 0 0 1.5rem 0;
+        }
+
+        .impact-box {
+            background-color: rgba(16, 185, 129, 0.06);
+            border-left: 3px solid var(--emerald-accent);
+            padding: 0.75rem 1rem;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.9rem;
+            color: #a7f3d0;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: transparent;
+            color: var(--text-primary);
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            border: 1px solid var(--border-color);
+            transition: all 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: var(--blue-accent);
+            border-color: var(--blue-accent);
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem 0;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        footer a {
+            color: var(--emerald-accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
     </style>
 </head>
 <body>
+
     <div class="container">
         <header>
-            <h1>Technical Cloud Economics & Financial Engineering</h1>
-            <p class="subtitle">13 Years Core Software Experience + MBA in Finance</p>
-            <p class="bio">
-                Specializing in bridging the critical visibility gap between engineering infrastructure and the corporate CFO's office. Expert in optimizing multi-cloud environments, parsing large-scale billing datasets, and mapping cloud metrics directly to corporate profit margins and capital allocation strategies. Based in Dublin, Ireland.
-            </p>
+            <div>
+                <h1>Executive Technical Profile</h1>
+                <div class="subtitle">Cloud Architecture & Capital Value Governance</div>
+                <p class="bio">
+                    A hybrid systems architect offering **13 years of cross-functional engineering execution** combined with an **MBA in Finance**. Specialized in optimizing modern, high-throughput software lifecycles (.NET, Big Data, Cloud Infrastructure) while aligning technology spending directly with corporate operating leverage and profitability metrics. Headquartered in Dublin, Ireland.
+                </p>
+            </div>
+            
+            <!-- Executive Metrics Board -->
+            <div class="metrics-board">
+                <div class="metric-card">
+                    <div class="metric-val blue">13 Yrs</div>
+                    <div class="metric-label">Engineering baseline</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-val">MBA</div>
+                    <div class="metric-label">Finance & Strategy</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-val green">FOCUS</div>
+                    <div class="metric-label">Data Standards</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-val">AI-Proof</div>
+                    <div class="metric-label">Strategic Value</div>
+                </div>
+            </div>
         </header>
 
-        <h2>Strategic Portfolio Projects</h2>
-        <div class="grid">
-            <!-- Project 1 -->
-            <div class="card">
-                <div class="card-title">Azure DevOps Financial Observability Pipeline</div>
-                <div>
-                    <span class="tag">Azure</span><span class="tag">Python</span><span class="tag">FinOps Framework</span>
+        <main>
+            <h2 class="section-title">Core Disciplines & Operational Portfolio</h2>
+            <div class="grid">
+                
+                <!-- Track 1: FinOps & Cloud Economics -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>FinOps & Cloud Economics</h3>
+                        <div class="tags">
+                            <span class="tag">FOCUS Standard</span>
+                            <span class="tag">Azure Cost Mgmt</span>
+                            <span class="tag">Unit Economics</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>Ingesting and normalizing massive cloud usage logs to map infrastructural anomalies back to operational units. Designing cloud billing data models that trace technology costs to unit transaction margins.</p>
+                        <div class="impact-box">
+                            <strong>Strategic ROI:</strong> Converts raw multi-cloud expenditure into clear business metrics for the CFO's office, mitigating structural cost drift.
+                        </div>
+                        <a href="https://github.com/YOUR_GITHUB_USERNAME/tech-finance-portfolio" class="btn">View Open Pipelines</a>
+                    </div>
                 </div>
-                <p>Engineered an automated data processing parser that ingests complex Azure amortized billing schemas and normalizes data to identify orphaned cloud resources and map untagged development costs back to operational units.</p>
-                <div class="impact">Business Impact: Protects corporate gross profit margins by shifting cost visibility directly into active CI/CD pipelines.</div>
-                <a href="https://github.com/YOUR_GITHUB_USERNAME/tech-finance-portfolio/tree/main/portfolios/azure-cost-observability" class="btn">View Source Code & Setup</a>
+
+                <!-- Track 2: DevSecOps & Enterprise Infrastructure -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>DevSecOps & Core Cloud Systems</h3>
+                        <div class="tags">
+                            <span class="tag">.NET Core</span>
+                            <span class="tag">Azure DevOps</span>
+                            <span class="tag">Kubernetes</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>Leveraging over a decade of core backend engineering experience to implement automated governance frameworks. Integrating shift-left cost tracking checks directly into production release lines.</p>
+                        <div class="impact-box">
+                            <strong>Strategic ROI:</strong> Accelerates development velocity and pipeline reliability while maintaining strict corporate security and governance guardrails.
+                        </div>
+                        <a href="https://github.com/YOUR_GITHUB_USERNAME/tech-finance-portfolio" class="btn">Inspect Architecture</a>
+                    </div>
+                </div>
+
+                <!-- Track 3: Quantitative & Financial Systems -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Financial Engineering & AI Valuation</h3>
+                        <div class="tags">
+                            <span class="tag">C# Valuation</span>
+                            <span class="tag">Token Economics</span>
+                            <span class="tag">Data Optimization</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>Constructing high-performance backend processing architectures to execute algorithmic options valuations and running forecasting simulations for volatile GenAI model token run-costs.</p>
+                        <div class="impact-box">
+                            <strong>Strategic ROI:</strong> Optimizes computational efficiency and calculates break-even horizons for scaling compute infrastructure.
+                        </div>
+                        <a href="https://github.com/tech-finance/finops-portfolio.git" class="btn">Explore Core Models</a>
+                    </div>
+                </div>
+
             </div>
-        </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Executive Infrastructure & Governance Portfolio. Live via GitHub Pages. Connect on <a href="https://linkedin.com">LinkedIn</a>.</p>
+        </footer>
     </div>
+
 </body>
 </html>
