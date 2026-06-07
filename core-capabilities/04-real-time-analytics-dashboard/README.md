@@ -5,11 +5,11 @@
 Modern, enterprise-grade analytics platform for real-time financial and operational insights.
 
 **Platform Capabilities:**
-- 📊 **Real-time Updates:** < 5-second data refresh
-- 👥 **Multi-user Support:** Concurrent user scaling
-- 🔍 **Deep Drill-down:** Multi-level data exploration
-- 📱 **Responsive:** Mobile + desktop + tablet
-- 🔐 **Enterprise Security:** Row-level security, RBAC
+- Real-time Updates: < 5-second data refresh
+- Multi-user Support: Concurrent user scaling
+- Deep Drill-down: Multi-level data exploration
+- Responsive: Mobile + desktop + tablet
+- Enterprise Security: Row-level security, RBAC
 
 ---
 
@@ -324,13 +324,13 @@ Raw Costs → Validation → Aggregation → Redis Cache → API
 
 ## Accessibility & UX
 
-- ✅ WCAG 2.1 AA compliance
-- ✅ Keyboard navigation
-- ✅ Screen reader support
-- ✅ High contrast mode
-- ✅ Responsive design
-- ✅ Intuitive information architecture
-- ✅ Fast load times
+- WCAG 2.1 AA compliance
+- Keyboard navigation
+- Screen reader support
+- High contrast mode
+- Responsive design
+- Intuitive information architecture
+- Fast load times
 
 ---
 

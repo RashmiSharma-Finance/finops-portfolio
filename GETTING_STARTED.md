@@ -4,7 +4,7 @@ Welcome! This guide helps you navigate your FinOps portfolio journey.
 
 ---
 
-## 📋 Quick Navigation
+## Quick Navigation
 
 ### 1. **About You** → [PROFILE.md](PROFILE.md)
    - Your background (MBA Finance + 13 yrs DevOps)
@@ -25,7 +25,7 @@ Welcome! This guide helps you navigate your FinOps portfolio journey.
 
 ---
 
-## 🚀 Start Here (Today!)
+## Start Here (Today!)
 
 ### Week 1 Checklist
 
@@ -43,42 +43,42 @@ By end of week:
 
 ---
 
-## 📊 Projects Overview
+## Projects Overview
 
 | # | Project | Duration | Key Tech | Status |
 |---|---------|----------|----------|--------|
-| 1 | **cloud-cost-analyzer** | 3 months | Python, Streamlit, Terraform, Docker | 🟡 Starting |
-| 2 | **finops-governance-framework** | 3 months | Python, Go, PostgreSQL, React | 🔲 Next |
-| 3 | **finops-automation-hub** | 3 months | Python, ML, Airflow, Terraform | 🔲 Future |
-| 4 | **finops-platform** | 3 months | Go, React, K8s, Microservices | 🔲 Future |
-| 5 | **Thought Leadership** | 6 months | Writing, speaking, certifications | 🔲 Future |
+| 1 | **cloud-cost-analyzer** | 3 months | Python, Streamlit, Terraform, Docker | Starting |
+| 2 | **finops-governance-framework** | 3 months | Python, Go, PostgreSQL, React | Next |
+| 3 | **finops-automation-hub** | 3 months | Python, ML, Airflow, Terraform | Future |
+| 4 | **finops-platform** | 3 months | Go, React, K8s, Microservices | Future |
+| 5 | **Thought Leadership** | 6 months | Writing, speaking, certifications | Future |
 
 **Total: 18 months to enterprise-grade portfolio**
 
 ---
 
-## 🎯 Your Success Metric
+## Your Success Metric
 
 By month 18, you should have:
 
-✅ **5 GitHub Projects**
+DONE: **5 GitHub Projects**
 - Each with 100+ stars
 - Production-ready code
 - Comprehensive documentation
 
-✅ **Established Expertise**
+DONE: **Established Expertise**
 - FinOps Certified Practitioner
 - Speaking at 1-2 conferences
 - 20+ articles/blog posts
 
-✅ **Market Position**
+DONE: **Market Position**
 - Recruiters reaching out actively
 - Salary negotiation from strength
 - Positioned as FinOps thought leader
 
 ---
 
-## 💼 GitHub Repo Structure
+## GitHub Repo Structure
 
 Your main portfolio lives here: [tech-finance](https://github.com/RashmiSharma-Finance/tech-finance)
 
@@ -199,12 +199,12 @@ MONTH 18
 ├── Thought leadership
 ├── Public speaking
 ├── FinOps certification
-└── Industry recognition ⭐
+└── Industry recognition
 ```
 
 ---
 
-## 💡 Tips for Success
+## Tips for Success
 
 1. **Document Everything**: Write as you code. Future-you will thank you.
 2. **Ship Frequently**: Deploy early and often. Perfect is enemy of done.
@@ -216,7 +216,7 @@ MONTH 18
 
 ---
 
-## ❓ FAQ
+## FAQ
 
 **Q: Can I do this part-time?**
 A: Yes! 1-2 hours/day is sufficient. Consistency > intensity.
@@ -238,7 +238,7 @@ A: Month 3-4: Local meetups, Months 6+: Recruiter interest, Months 12+: Industry
 
 ---
 
-## 📞 Support & Accountability
+## Support & Accountability
 
 **Set this up**:
 - [ ] Join FinOps Foundation Slack
@@ -249,7 +249,7 @@ A: Month 3-4: Local meetups, Months 6+: Recruiter interest, Months 12+: Industry
 
 ---
 
-## 🎉 Ready to Start?
+## Ready to Start?
 
 **Go to [DAILY_EXERCISES.md](DAILY_EXERCISES.md) → Phase 1 Week 1 → Start Day 1 today!**
 
@@ -257,7 +257,7 @@ Your unique combination of MBA Finance + 13 years DevOps experience is *incredib
 
 You're not just learning FinOps. You're becoming **THE** person who bridges finance and engineering.
 
-Let's go! 🚀
+Let's go!
 
 ---
 

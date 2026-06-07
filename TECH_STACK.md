@@ -357,10 +357,10 @@ bandit>=1.7.0
 
 ## Certification & Compliance
 
-- ✅ **Azure Solutions Architect Expert** (AZ-305)
-- ✅ **AWS Solutions Architect Professional** (SAA-P)
-- ✅ **AWS Certified Data Analytics – Specialty** (DAS-C01)
-- ✅ **FinOps Certified Practitioner** (FOCP)
+- Azure Solutions Architect Expert (AZ-305)
+- AWS Solutions Architect Professional (SAA-P)
+- AWS Certified Data Analytics - Specialty (DAS-C01)
+- FinOps Certified Practitioner (FOCP)
 
 ---
 

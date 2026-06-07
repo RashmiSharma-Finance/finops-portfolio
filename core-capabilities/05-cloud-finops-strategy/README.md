@@ -5,11 +5,11 @@
 Comprehensive framework for implementing FinOps practices in multi-cloud environments (Azure + AWS).
 
 **Strategic Goals:**
-- 💰 **Cost Optimization:** 30-50% reduction in cloud spending
-- 📊 **Financial Visibility:** Real-time cost tracking & attribution
-- 🎯 **Accountability:** Clear cost ownership & chargeback
-- 🚀 **Agility:** Enable innovation while controlling costs
-- 🔄 **Continuous Improvement:** Data-driven optimization cycles
+- Cost Optimization: 30-50% reduction in cloud spending
+- Financial Visibility: Real-time cost tracking & attribution
+- Accountability: Clear cost ownership & chargeback
+- Agility: Enable innovation while controlling costs
+- Continuous Improvement: Data-driven optimization cycles
 
 ---
 
@@ -160,16 +160,11 @@ Comprehensive framework for implementing FinOps practices in multi-cloud environ
 
 ```
 1. Requestor submits resource request
-   ↓
-2. Manager reviews & approves
-   ↓
-3. Cost review (> $1K/month)
-   ↓
+2. Manager reviews and approves
+3. Cost review (greater than $1K/month)
 4. Approval granted
-   ↓
 5. Resource provisioned
-   ↓
-6. Tagged & added to tracking
+6. Tagged and added to tracking
 ```
 
 ### Budget Controls
@@ -362,19 +357,19 @@ Budget Status:     $96,000 (98% utilized)
 
 ## Governance Policies Documentation
 
-[📁 View Detailed Governance Policies →](governance-policies/)
+View Detailed Governance Policies](governance-policies/)
 
 ---
 
 ## Case Study Details
 
-[📁 View Complete Case Studies →](case-studies/)
+View Complete Case Studies](case-studies/)
 
 ---
 
 ## Best Practices Document
 
-[📁 View Detailed Best Practices →](best-practices.md)
+View Detailed Best Practices](best-practices.md)
 
 ---
 
@@ -426,12 +421,11 @@ Month 6+: Sustained Cost Management
 
 ```
 CFO / VP Finance
-       ↓
 FinOps Director
-  ├─ FinOps Engineer (Cost Analysis)
-  ├─ Cloud Architect (Optimization)
-  ├─ Financial Analyst (Reporting)
-  └─ Operations Manager (Governance)
+- FinOps Engineer (Cost Analysis)
+- Cloud Architect (Optimization)
+- Financial Analyst (Reporting)
+- Operations Manager (Governance)
 
 Reporting to Cloud CoE
 Cross-functional: Eng, Finance, Product, Ops

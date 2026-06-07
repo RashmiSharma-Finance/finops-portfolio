@@ -5,10 +5,10 @@
 Production-grade data pipeline orchestration and infrastructure automation for enterprise-scale FinOps operations.
 
 **Key Metrics:**
-- 📊 Data Throughput: **500GB+ daily** processing capacity
-- ⚡ Latency: **< 5 minutes** end-to-end processing
-- 🔄 Reliability: **99.9%+ uptime** SLA
-- 🚀 Deployment: **Fully automated** CI/CD
+- Data Throughput: **500GB+ daily** processing capacity
+- Latency: **< 5 minutes** end-to-end processing
+- Reliability: **99.9%+ uptime** SLA
+- Deployment: **Fully automated** CI/CD
 
 ---
 
@@ -30,7 +30,7 @@ Production-grade data pipeline orchestration and infrastructure automation for e
 
 **Version Control:** All IaC in Git, automated testing
 
-[📁 View IaC Templates →](infra-as-code/)
+[View IaC Templates →](infra-as-code/)
 
 ### 2. **ETL Orchestration**
 
@@ -55,7 +55,7 @@ Production-grade data pipeline orchestration and infrastructure automation for e
 - Report generation (daily/weekly)
 - Backup & archival (daily)
 
-[📁 View ETL Workflows →](etl-orchestration/)
+[View ETL Workflows →](etl-orchestration/)
 
 ### 3. **CI/CD Workflows**
 
@@ -75,7 +75,7 @@ Production-grade data pipeline orchestration and infrastructure automation for e
 6. **Validate:** Smoke tests
 7. **Production:** Automated/manual approval
 
-[📁 View CI/CD Workflows →](ci-cd-workflows/)
+[View CI/CD Workflows →](ci-cd-workflows/)
 
 ---
 
@@ -213,11 +213,11 @@ Duration: ~40 minutes
 
 ## Security & Governance
 
-- ✅ Secrets management (Azure Key Vault, AWS Secrets Manager)
-- ✅ RBAC for workflow access
-- ✅ Audit logging of all pipeline changes
-- ✅ Data encryption in transit & at rest
-- ✅ Compliance with data governance policies
+- Secrets management (Azure Key Vault, AWS Secrets Manager)
+- RBAC for workflow access
+- Audit logging of all pipeline changes
+- Data encryption in transit and at rest
+- Compliance with data governance policies
 
 ---
 
@@ -253,12 +253,12 @@ Duration: ~40 minutes
 
 ## Deliverables
 
-- ✅ Terraform modules for multi-cloud infrastructure
-- ✅ Production-ready Airflow DAGs
-- ✅ CI/CD pipeline configuration (GitHub Actions)
-- ✅ Monitoring dashboards
-- ✅ Runbooks & troubleshooting guides
-- ✅ Training documentation
+- Terraform modules for multi-cloud infrastructure
+- Production-ready Airflow DAGs
+- CI/CD pipeline configuration (GitHub Actions)
+- Monitoring dashboards
+- Runbooks and troubleshooting guides
+- Training documentation
 
 ---
 

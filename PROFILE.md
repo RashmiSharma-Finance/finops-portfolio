@@ -39,25 +39,25 @@ Finance & DevOps professional combining **MBA Finance (IIT Patna 2024-2026)** wi
 ### Why FinOps? The Intersection
 ```
 Finance MBA (2024-2026)
-       ↓
+       |
     Cost Accounting
     Financial Planning
     Organizational Governance
-       ↓
-   ✕ DevOps Experience (13 yrs)
-       ↓
+       |
+    X DevOps Experience (13 yrs)
+       |
     Cloud Infrastructure
     Automation
     Multi-cloud management
-       ↓
-   = FinOps Engineer
+       |
+    = FinOps Engineer
 ```
 
 ### Key Differentiators
 1. **Scale Experience**: Managed infrastructure for 1000+ services across regions
 2. **Enterprise Context**: Worked in large organizations with complex cost allocation needs
 3. **Technical Depth**: Can architect, implement, AND explain financial implications
-4. **Global Perspective**: India → USA → Uruguay → Ireland (cost optimization across regions)
+4. **Global Perspective**: India to USA to Uruguay to Ireland (cost optimization across regions)
 5. **Certification Path**: MBA in Finance + DevOps certifications
 
 ---

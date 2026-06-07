@@ -1,14 +1,14 @@
 # EXERCISE 1 - Day 1: AWS Cost Architecture
-**Phase 1, Week 1** | **Duration: 1-2 hours** | **Difficulty: ⭐ Easy**
+**Phase 1, Week 1** | **Duration: 1-2 hours** | **Difficulty: Easy**
 
 ---
 
-## 📍 Today's Goal
+## Today's Goal
 Complete your AWS account setup, understand AWS cost model basics, and export your first cost data.
 
 ---
 
-## 📖 THEORY (30 minutes)
+## THEORY (30 minutes)
 
 ### Step 1: Read AWS Pricing Fundamentals
 - **Time**: 15 minutes  
@@ -41,9 +41,9 @@ Watch this AWS video: **"Getting Started with AWS Cost Explorer"**
 
 ---
 
-## 💻 PRACTICE (60 minutes)
+## PRACTICE (60 minutes)
 
-### ✅ Task 1: Create AWS Account (if not already done)
+### Task 1: Create AWS Account (if not already done)
 **Time: 5 minutes**
 
 - [ ] Go to https://aws.amazon.com
@@ -57,7 +57,7 @@ Watch this AWS video: **"Getting Started with AWS Cost Explorer"**
 
 ---
 
-### ✅ Task 2: Enable Cost & Usage Report (CUR)
+### Task 2: Enable Cost & Usage Report (CUR)
 **Time: 10 minutes**
 
 This is where AWS stores detailed cost data you'll analyze.
@@ -73,11 +73,11 @@ This is where AWS stores detailed cost data you'll analyze.
    - Click "Billing and Cost Management"
 
 3. **Enable Cost & Usage Reports**
-   - Left sidebar → "Cost & Usage Reports"
+- Left sidebar - Cost & Usage Reports
    - Click "Create report"
    - Fill in:
      - Report name: `monthly-cost-report`
-     - Include resource IDs: ✅ Yes
+     - Include resource IDs: Yes
      - Time granularity: Monthly
      - Report versioning: Overwrite
    - Click "Next"
@@ -92,15 +92,15 @@ This is where AWS stores detailed cost data you'll analyze.
    - Click "Next"
    - Review and **Create report**
 
-**✅ Done!** CUR will generate tomorrow (usually takes 24 hours)
+**DONE!** CUR will generate tomorrow (usually takes 24 hours)
 
 ---
 
-### ✅ Task 3: Explore Cost Explorer (Right Now!)
+### Task 3: Explore Cost Explorer (Right Now!)
 **Time: 10 minutes**
 
 1. **In AWS Console**, go to **Billing & Cost Management**
-2. **Left sidebar** → **Cost Explorer**
+2. **Left sidebar** - **Cost Explorer**
 3. You'll see your current costs (probably $0 if brand new)
 
 **Explore these views**:
@@ -113,7 +113,7 @@ This is where AWS stores detailed cost data you'll analyze.
 
 ---
 
-### ✅ Task 4: Create Learning Log
+### Task 4: Create Learning Log
 **Time: 5 minutes**
 
 Create a file in your repo: `phase1_learning_log.md`
@@ -131,9 +131,9 @@ Create a file in your repo: `phase1_learning_log.md`
 - [What else?]
 
 ### Practice Completed
-- ✅ AWS account created
-- ✅ CUR enabled
-- ✅ Cost Explorer explored
+- DONE: AWS account created
+- DONE: CUR enabled
+- DONE: Cost Explorer explored
 
 ### Key Insight
 [One sentence summary of what you learned]
@@ -151,7 +151,7 @@ Create a file in your repo: `phase1_learning_log.md`
 
 ---
 
-### ✅ Task 5: Write Your First Reflection (10 minutes)
+### Task 5: Write Your First Reflection (10 minutes)
 **Time: 10 minutes**
 
 In your `phase1_learning_log.md`, write:
@@ -175,14 +175,14 @@ AWS Pricing Model
 └── Spot Instances
     ├── Definition: [Your answer]
     ├── Discount: 50-90%
-    └── Use case: [Your answer]
+
 ```
 
 Fill in the blanks!
 
 ---
 
-### ✅ Task 6: Prepare for Day 2
+### Task 6: Prepare for Day 2
 **Time: 5 minutes**
 
 - [ ] Bookmark AWS Cost Explorer
@@ -213,7 +213,7 @@ git push
 
 ---
 
-## ✅ Completion Checklist
+## Completion Checklist
 
 - [ ] Read AWS pricing fundamentals
 - [ ] Watched AWS Cost Explorer video
@@ -226,13 +226,13 @@ git push
 
 ---
 
-## 🎯 Success Criteria
+## Success Criteria
 
 By end of today, you should:
-✅ Understand basic AWS pricing model  
-✅ Have AWS account with CUR enabled  
-✅ Have explored Cost Explorer  
-✅ Started documenting your learning  
+DONE: Understand basic AWS pricing model  
+DONE: Have AWS account with CUR enabled  
+DONE: Have explored Cost Explorer  
+DONE: Started documenting your learning  
 
 ---
 
@@ -246,7 +246,7 @@ By end of today, you should:
 
 ---
 
-## 💡 Troubleshooting
+## Troubleshooting
 
 **"I don't have AWS account"**
 → Create free account here: https://aws.amazon.com/free/
@@ -264,7 +264,7 @@ By end of today, you should:
 
 ---
 
-## 📚 Resources
+## Resources
 
 - AWS Pricing: https://aws.amazon.com/pricing/
 - Cost Explorer Guide: https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html
@@ -279,7 +279,7 @@ By end of today, you should:
 Open `phase1_learning_log.md` and write:
 
 ```
-## Exercise 1 - Day 1 Completed ✅
+## Exercise 1 - Day 1 Completed
 
 ### What I learned
 [3-4 sentences about AWS cost architecture]
@@ -293,11 +293,11 @@ Open `phase1_learning_log.md` and write:
 
 ---
 
-**Status**: 🟡 IN PROGRESS  
+**Status**: IN PROGRESS  
 **Next Step**: Complete tasks 1-6 above  
 **Time Estimate**: 1-2 hours
 
-You've got this! 🚀
+You've got this!
 
 ---
 

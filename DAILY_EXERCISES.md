@@ -4,7 +4,7 @@
 
 ---
 
-## 📚 Learning Framework
+## Learning Framework
 
 Each day combines:
 1. **Theory** (30 min): Finance + Cloud concepts
@@ -13,7 +13,7 @@ Each day combines:
 
 ---
 
-## 🗓️ PHASE 1: Foundation (Months 1-3)
+## PHASE 1: Foundation (Months 1-3)
 ### Project: `cloud-cost-analyzer`
 
 ---
@@ -294,13 +294,13 @@ Each day combines:
 - **Review**: What you learned about AWS costs
 - **Optimize**: Code quality, performance
 - **Plan**: Transition to Phase 2
-- **Celebrate**: First project complete! 🎉
+- **Celebrate**: First project complete!
 
 ---
 
 ---
 
-## 🗓️ PHASE 2: Multi-Cloud & Governance (Months 4-6)
+## PHASE 2: Multi-Cloud & Governance (Months 4-6)
 
 ### Project: `finops-governance-framework`
 
@@ -349,7 +349,7 @@ Each day combines:
 
 ---
 
-## 🗓️ PHASE 3: Automation & Intelligence (Months 7-9)
+## PHASE 3: Automation & Intelligence (Months 7-9)
 
 ### Project: `finops-automation-hub`
 
@@ -400,7 +400,7 @@ Each day combines:
 
 ---
 
-## 🗓️ PHASE 4: Enterprise Platform (Months 10-12)
+## PHASE 4: Enterprise Platform (Months 10-12)
 
 ### Project: `finops-platform`
 
@@ -427,7 +427,7 @@ Each day combines:
 
 ---
 
-## 🗓️ PHASE 5: Thought Leadership (Months 13-18)
+## PHASE 5: Thought Leadership (Months 13-18)
 
 ### Daily Activities (2-3 hours)
 
@@ -455,7 +455,7 @@ Each day combines:
 
 ---
 
-## 📊 Daily Metrics to Track
+## Daily Metrics to Track
 
 Create a simple `daily_log.md` in your repo:
 
@@ -477,7 +477,7 @@ Create a simple `daily_log.md` in your repo:
 
 ---
 
-## 🎯 Weekly Milestones
+## Weekly Milestones
 
 ### Phase 1 (13 weeks)
 
@@ -495,7 +495,7 @@ Create a simple `daily_log.md` in your repo:
 
 ---
 
-## 💡 Success Checklist (Each Phase)
+## Success Checklist (Each Phase)
 
 - [ ] Code is production-ready
 - [ ] Documentation is comprehensive
@@ -509,7 +509,7 @@ Create a simple `daily_log.md` in your repo:
 
 ---
 
-## 🚀 Quick Start This Week
+## Quick Start This Week
 
 **Your first 7 days:**
 
@@ -520,12 +520,12 @@ Day 3: Parse with Python/Pandas
 Day 4: Create cost visualization
 Day 5: Build GitHub repo + README
 Day 6: Write first blog post
-Day 7: Celebrate! 🎉
+Day 7: Celebrate!
 ```
 
 ---
 
-## 📚 Recommended Resources
+## Recommended Resources
 
 ### AWS
 - AWS Cost Management blogs

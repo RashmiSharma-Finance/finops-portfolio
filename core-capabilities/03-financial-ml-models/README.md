@@ -5,10 +5,10 @@
 Advanced machine learning models for financial analytics, cost prediction, and risk detection.
 
 **Model Performance:**
-- 🎯 Anomaly Detection Accuracy: **95%+**
-- 📈 Forecasting RMSE: **±5-8%** (depending on horizon)
-- ⚡ Inference Speed: **< 100ms** per prediction
-- 🔄 Continuous Learning: **Weekly model updates**
+- Anomaly Detection Accuracy: **95%+**
+- Forecasting RMSE: **±5-8%** (depending on horizon)
+- Inference Speed: **< 100ms** per prediction
+- Continuous Learning: **Weekly model updates**
 
 ---
 
@@ -41,7 +41,7 @@ Advanced machine learning models for financial analytics, cost prediction, and r
 - MAPE: 6-8% (12-month forecast)
 - MAE: $15K-$50K depending on scale
 
-[📁 View Implementation →](demand-forecasting/)
+[View Implementation →](demand-forecasting/)
 
 ### 2. **Anomaly Detection**
 
@@ -73,7 +73,7 @@ Advanced machine learning models for financial analytics, cost prediction, and r
 
 **Latency:** < 1 hour detection
 
-[📁 View Implementation →](anomaly-detection/)
+[View Implementation →](anomaly-detection/)
 
 ### 3. **Predictive Analytics**
 
@@ -104,7 +104,7 @@ Advanced machine learning models for financial analytics, cost prediction, and r
 - Partial dependence plots
 - Permutation importance
 
-[📁 View Implementation →](predictive-analytics/)
+[View Implementation →](predictive-analytics/)
 
 ---
 
@@ -212,13 +212,13 @@ POST /api/cost-attribution
 ## Model Artifacts
 
 Each model includes:
-- ✅ Trained model (pickle/joblib)
-- ✅ Preprocessing pipeline
-- ✅ Feature definitions
-- ✅ Hyperparameter documentation
-- ✅ Performance metrics
-- ✅ Training metadata
-- ✅ Version information
+- Trained model (pickle/joblib)
+- Preprocessing pipeline
+- Feature definitions
+- Hyperparameter documentation
+- Performance metrics
+- Training metadata
+- Version information
 
 ---
 
