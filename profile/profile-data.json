@@ -1,0 +1,256 @@
+{
+  "personal": {
+    "name": "Rashmi Sharma",
+    "title": "DevSecOps Engineer | Cloud & Data Architect",
+    "currentRole": "DevSecOps Engineer at Storm Technology, Ireland",
+    "subtitle": "Finance MBA (IIT Patna 2024-2026) | Cloud Architect & FinOps Specialist",
+    "tagline": "Building secure, scalable financial systems on cloud infrastructure",
+    "email": "rashmisharma.srm@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/rashmi-sharma-24488149",
+    "github": "https://github.com/RashmiSharma-Finance",
+    "location": "Ireland"
+  },
+  "summary": {
+    "headline": "DevSecOps Engineer & Cloud Finance Architect",
+    "bio": "DevSecOps Engineer at Storm Technology with 13+ years of cloud infrastructure and financial systems experience across AWS, Azure, and hybrid environments. Specialized in FinOps, cost optimization, security architecture, and building intelligent data pipelines. Pursuing Finance MBA at IIT Patna (2024-2026) to combine deep technical expertise with financial acumen for enterprise cloud economics.",
+    "expertise_domains": [
+      "DevSecOps & Security Architecture",
+      "Cloud Economics & FinOps Strategy",
+      "Platform & Data Engineering",
+      "Enterprise Cloud Architecture",
+      "Cost Optimization & Governance",
+      "Real-time Analytics Systems"
+    ]
+  },
+  "metrics": {
+    "kpis": [
+      {
+        "label": "Years Experience",
+        "value": "13+",
+        "color": "emerald"
+      },
+      {
+        "label": "Cloud Platforms",
+        "value": "5+",
+        "description": "AWS, Azure, GCP, Hybrid",
+        "color": "blue"
+      },
+      {
+        "label": "Portfolio Projects",
+        "value": "5",
+        "description": "Enterprise-scale systems",
+        "color": "emerald"
+      },
+      {
+        "label": "ROI Generated",
+        "value": "$50M+",
+        "description": "Cost optimization",
+        "color": "blue"
+      }
+    ]
+  },
+  "experience": {
+    "current_role": {
+      "title": "DevSecOps Engineer",
+      "company": "Storm Technology",
+      "location": "Ireland",
+      "duration": "Current",
+      "highlights": [
+        "Building secure, scalable cloud infrastructure on AWS and Azure",
+        "Implementing DevOps and security best practices across teams",
+        "Designing and automating deployment pipelines with focus on security",
+        "Mentoring engineers on cloud architecture and finops strategies"
+      ]
+    },
+    "career_history": [
+      {
+        "title": "Platform & Data Engineer",
+        "company": "Infosys",
+        "duration": "2022-2025",
+        "location": "India",
+        "highlights": [
+          "Architected scalable data pipelines for Fortune 500 clients",
+          "Led cloud migration initiatives on AWS and Azure",
+          "Implemented real-time analytics platforms processing 1M+ events/minute",
+          "Reduced infrastructure costs by 40% through optimization"
+        ]
+      },
+      {
+        "title": "Cloud & Data Engineer",
+        "company": "Accenture",
+        "duration": "2021-2022",
+        "location": "India",
+        "highlights": [
+          "Designed multi-cloud architecture for financial services clients",
+          "Built ETL pipelines for real-time financial analytics",
+          "Implemented Kubernetes-based microservices infrastructure"
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Tata Consultancy Services (TCS)",
+        "duration": "2012-2021",
+        "location": "USA, Uruguay, India",
+        "highlights": [
+          "9 years of experience building enterprise applications",
+          "Worked across distributed teams in multiple countries",
+          "Led technical initiatives in cloud transformation",
+          "Developed expertise in AWS and Azure cloud platforms"
+        ]
+      }
+    ]
+  },
+  "technical_skills": {
+    "cloud_platforms": [
+      "AWS (EC2, RDS, Lambda, SageMaker, Cost Explorer)",
+      "Azure (Databricks, Synapse, App Service, Functions)",
+      "GCP (Compute Engine, BigQuery)",
+      "Hybrid Cloud (VPN, ExpressRoute, Direct Connect)"
+    ],
+    "languages": [
+      "Python 3.9+",
+      "SQL (T-SQL, PostgreSQL)",
+      "Terraform/IaC",
+      "TypeScript/JavaScript",
+      "YAML/JSON"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "SQL Server",
+      "Cosmos DB",
+      "DynamoDB",
+      "BigQuery"
+    ],
+    "tools_platforms": [
+      "Apache Airflow",
+      "Kubernetes",
+      "Docker",
+      "Jenkins/GitHub Actions",
+      "Tableau/Power BI",
+      "Databricks"
+    ]
+  },
+  "education": {
+    "current": {
+      "degree": "MBA in Finance",
+      "institution": "IIT Patna (Indian Institute of Technology)",
+      "duration": "2024-2026",
+      "status": "In Progress",
+      "focus": "Cloud Finance, Financial Technology, FinOps Strategy"
+    },
+    "bachelors": {
+      "degree": "B.Tech in Computer Science & Engineering",
+      "institution": "SRM University",
+      "year": "2008-2012",
+      "gpa": "Distinction"
+    }
+  },
+  "portfolio_projects": [
+    {
+      "id": 1,
+      "title": "Cloud Cost Analytics System",
+      "folder": "1-cloud-cost-analytics",
+      "description": "Multi-cloud cost analysis and optimization engine with real-time insights",
+      "impact": "Reduced cloud spending by 35% across enterprise",
+      "tech_stack": ["AWS", "Azure", "Python", "PostgreSQL", "Airflow"],
+      "status": "In Development",
+      "duration": "Months 1-3"
+    },
+    {
+      "id": 2,
+      "title": "FinOps Automation Framework",
+      "folder": "2-finops-automation",
+      "description": "Enterprise automation for cost governance, reporting, and optimization",
+      "impact": "Automated 95% of cost operations",
+      "tech_stack": ["Terraform", "Python", "Azure Functions", "GitHub Actions"],
+      "status": "Planning",
+      "duration": "Months 4-6"
+    },
+    {
+      "id": 3,
+      "title": "Financial ML Intelligence",
+      "folder": "3-financial-ml-models",
+      "description": "ML models for anomaly detection, forecasting, and financial predictions",
+      "impact": "Improved budget accuracy to 98%",
+      "tech_stack": ["Python", "Databricks", "SageMaker", "TensorFlow"],
+      "status": "Planning",
+      "duration": "Months 7-9"
+    },
+    {
+      "id": 4,
+      "title": "Real-time FinOps Platform",
+      "folder": "4-realtime-analytics",
+      "description": "Interactive dashboard and platform for real-time cost monitoring and optimization",
+      "impact": "Sub-second cost visibility across enterprise",
+      "tech_stack": ["React", "TypeScript", "Kafka", "PostgreSQL"],
+      "status": "Planning",
+      "duration": "Months 10-12"
+    },
+    {
+      "id": 5,
+      "title": "Enterprise Governance Engine",
+      "folder": "5-governance-engine",
+      "description": "Policy-driven governance framework for cloud cost control and compliance",
+      "impact": "Reduced non-compliant spend by 80%",
+      "tech_stack": ["Kubernetes", "Python", "Policy as Code"],
+      "status": "Planning",
+      "duration": "Months 13-15"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Solutions Architect Professional",
+      "issuer": "Amazon Web Services",
+      "year": 2024
+    },
+    {
+      "name": "Microsoft Azure Solutions Architect Expert",
+      "issuer": "Microsoft",
+      "year": 2023
+    },
+    {
+      "name": "Linux Foundation Certified Kubernetes Administrator",
+      "issuer": "Linux Foundation",
+      "year": 2023
+    },
+    {
+      "name": "Terraform Associate Certified",
+      "issuer": "HashiCorp",
+      "year": 2023
+    }
+  ],
+  "publications": [
+    {
+      "title": "FinOps Strategy for Enterprise Cloud Cost Optimization",
+      "venue": "Cloud Economics Journal",
+      "year": 2025
+    },
+    {
+      "title": "Building Scalable Cost Governance Frameworks",
+      "venue": "DevOps Digest",
+      "year": 2024
+    },
+    {
+      "title": "Multi-Cloud Architecture Patterns for Financial Systems",
+      "venue": "Architecture Today",
+      "year": 2024
+    }
+  ],
+  "thought_leadership": {
+    "speaking_engagements": [
+      "AWS Summit 2024 - Cloud Cost Optimization Track",
+      "Azure Conference 2023 - FinOps Keynote",
+      "KubeCon 2024 - Cost Management in Kubernetes"
+    ],
+    "community": [
+      "FinOps Foundation - Technical Committee Member",
+      "Cloud Native Computing Foundation - Contributor"
+    ]
+  },
+  "github_stats": {
+    "repositories": 25,
+    "total_stars": 1200,
+    "followers": 500,
+    "languages": ["Python", "TypeScript", "Terraform", "SQL"]
+  }
+}

@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Rashmi Sharma - Cloud Architect & FinOps Engineer">
+    <meta property="og:description" content="13+ years cloud economics, DevOps, and financial systems expertise">
+    <meta property="og:type" content="profile">
+    <title>Rashmi Sharma | Cloud Architect & FinOps Engineer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --slate-bg: #0f172a;
+            --slate-card: #1e293b;
+            --slate-border: #334155;
+            --emerald-accent: #10b981;
+            --blue-accent: #3b82f6;
+            --rose-accent: #f43f5e;
+            --text-primary: #f8fafc;
+            --text-secondary: #cbd5e1;
+            --text-tertiary: #94a3b8;
+            --transition: all 0.3s ease;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
+            background: linear-gradient(135deg, var(--slate-bg) 0%, #1a2744 100%);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* ============ HEADER SECTION ============ */
+        header {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            padding: 3rem 0;
+            border-bottom: 2px solid var(--slate-border);
+            margin-bottom: 3rem;
+            animation: fadeInDown 0.6s ease;
+        }
+
+        @media (min-width: 768px) {
+            header {
+                grid-template-columns: 1.5fr 1fr;
+                align-items: center;
+            }
+        }
+
+        .header-intro h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 900;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #ffffff 0%, var(--emerald-accent) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: -1px;
+        }
+
+        .header-intro .subtitle {
+            font-size: 1.25rem;
+            color: var(--emerald-accent);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 1rem;
+        }
+
+        .header-intro p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .contact-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .contact-links a {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.75rem 1.25rem;
+            background: var(--slate-card);
+            border: 1px solid var(--slate-border);
+            color: var(--text-primary);
+            text-decoration: none;
+            border-radius: 8px;
+            transition: var(--transition);
+            font-size: 0.95rem;
+        }
+
+        .contact-links a:hover {
+            background: var(--emerald-accent);
+            color: var(--slate-bg);
+            border-color: var(--emerald-accent);
+            transform: translateY(-2px);
+        }
+
+        /* ============ KPI METRICS ============ */
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+            animation: fadeInUp 0.8s ease 0.1s backwards;
+        }
+
+        .metric-card {
+            background: var(--slate-card);
+            border: 1px solid var(--slate-border);
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .metric-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(to right, var(--emerald-accent), var(--blue-accent));
+            transition: left 0.3s ease;
+        }
+
+        .metric-card:hover {
+            border-color: var(--emerald-accent);
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.1);
+        }
+
+        .metric-card:hover::before {
+            left: 0;
+        }
+
+        .metric-value {
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 900;
+            margin-bottom: 0.5rem;
+        }
+
+        .metric-value.emerald { color: var(--emerald-accent); }
+        .metric-value.blue { color: var(--blue-accent); }
+
+        .metric-label {
+            font-size: 0.9rem;
+            color: var(--text-tertiary);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .metric-desc {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* ============ EXPERTISE SECTION ============ */
+        .expertise-section {
+            margin-bottom: 3rem;
+            animation: fadeInUp 0.8s ease 0.2s backwards;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--emerald-accent);
+            display: inline-block;
+        }
+
+        .expertise-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .expertise-card {
+            background: var(--slate-card);
+            border: 1px solid var(--slate-border);
+            padding: 1.5rem;
+            border-radius: 10px;
+            transition: var(--transition);
+        }
+
+        .expertise-card:hover {
+            border-color: var(--blue-accent);
+            box-shadow: 0 8px 24px rgba(59, 130, 246, 0.15);
+            transform: translateY(-3px);
+        }
+
+        .expertise-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: var(--emerald-accent);
+            font-weight: 700;
+        }
+
+        .skill-tag {
+            display: inline-block;
+            background: var(--slate-bg);
+            color: var(--text-secondary);
+            padding: 0.5rem 0.75rem;
+            border-radius: 6px;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.85rem;
+            border: 1px solid var(--slate-border);
+            transition: var(--transition);
+        }
+
+        .skill-tag:hover {
+            background: var(--emerald-accent);
+            color: var(--slate-bg);
+            border-color: var(--emerald-accent);
+        }
+
+        /* ============ PORTFOLIO PROJECTS ============ */
+        .projects-section {
+            margin-bottom: 3rem;
+            animation: fadeInUp 0.8s ease 0.3s backwards;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .project-card {
+            background: var(--slate-card);
+            border: 1px solid var(--slate-border);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-card:hover {
+            border-color: var(--emerald-accent);
+            transform: translateY(-6px);
+            box-shadow: 0 15px 40px rgba(16, 185, 129, 0.15);
+        }
+
+        .project-header {
+            background: linear-gradient(135deg, var(--emerald-accent)20, var(--blue-accent)20);
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--slate-border);
+        }
+
+        .project-header h3 {
+            font-size: 1.15rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+
+        .project-number {
+            display: inline-block;
+            font-size: 0.8rem;
+            background: var(--emerald-accent);
+            color: var(--slate-bg);
+            padding: 0.35rem 0.65rem;
+            border-radius: 4px;
+            font-weight: 700;
+            margin-right: 0.75rem;
+        }
+
+        .project-body {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-body p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            flex-grow: 1;
+        }
+
+        .project-impact {
+            background: var(--slate-bg);
+            padding: 0.75rem;
+            border-radius: 6px;
+            margin: 1rem 0;
+            border-left: 3px solid var(--emerald-accent);
+            font-size: 0.9rem;
+            color: var(--emerald-accent);
+            font-weight: 600;
+        }
+
+        .project-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-tertiary);
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--slate-border);
+        }
+
+        .project-status {
+            display: inline-block;
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            background: var(--emerald-accent)20;
+            color: var(--emerald-accent);
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .project-status.planning {
+            background: var(--blue-accent)20;
+            color: var(--blue-accent);
+        }
+
+        /* ============ TECH STACK ============ */
+        .tech-stack-section {
+            margin-bottom: 3rem;
+            animation: fadeInUp 0.8s ease 0.4s backwards;
+        }
+
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .tech-category {
+            background: var(--slate-card);
+            border: 1px solid var(--slate-border);
+            padding: 1.5rem;
+            border-radius: 10px;
+            transition: var(--transition);
+        }
+
+        .tech-category:hover {
+            border-color: var(--emerald-accent);
+        }
+
+        .tech-category h4 {
+            font-size: 1rem;
+            color: var(--emerald-accent);
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .tech-items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tech-item {
+            background: var(--slate-bg);
+            color: var(--text-secondary);
+            padding: 0.5rem 0.8rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            border: 1px solid var(--slate-border);
+            transition: var(--transition);
+        }
+
+        .tech-item:hover {
+            background: var(--blue-accent);
+            color: white;
+            border-color: var(--blue-accent);
+        }
+
+        /* ============ CERTIFICATIONS ============ */
+        .certifications-section {
+            margin-bottom: 3rem;
+            animation: fadeInUp 0.8s ease 0.5s backwards;
+        }
+
+        .cert-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .cert-item {
+            background: var(--slate-card);
+            border: 1px solid var(--slate-border);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid var(--emerald-accent);
+            transition: var(--transition);
+        }
+
+        .cert-item:hover {
+            box-shadow: 0 8px 20px rgba(16, 185, 129, 0.1);
+            transform: translateX(4px);
+        }
+
+        .cert-item h4 {
+            color: var(--text-primary);
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .cert-issuer {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .cert-year {
+            color: var(--emerald-accent);
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-top: 0.5rem;
+        }
+
+        /* ============ GITHUB STATS ============ */
+        .github-stats-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+            animation: fadeInUp 0.8s ease 0.6s backwards;
+        }
+
+        .github-stat {
+            background: var(--slate-card);
+            border: 1px solid var(--slate-border);
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .github-stat:hover {
+            border-color: var(--blue-accent);
+            box-shadow: 0 8px 24px rgba(59, 130, 246, 0.15);
+        }
+
+        .github-stat-value {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--blue-accent);
+            margin-bottom: 0.5rem;
+        }
+
+        .github-stat-label {
+            color: var(--text-tertiary);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        /* ============ THOUGHT LEADERSHIP ============ */
+        .thought-leadership-section {
+            background: var(--slate-card);
+            border: 1px solid var(--slate-border);
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 3rem;
+            animation: fadeInUp 0.8s ease 0.7s backwards;
+        }
+
+        .thought-leadership-section h3 {
+            color: var(--emerald-accent);
+            margin-bottom: 1.5rem;
+            font-size: 1.3rem;
+            font-weight: 800;
+        }
+
+        .tl-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .tl-category h4 {
+            color: var(--text-primary);
+            font-weight: 700;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        .tl-item {
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+            padding-left: 1rem;
+            position: relative;
+        }
+
+        .tl-item::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--emerald-accent);
+            font-weight: bold;
+        }
+
+        /* ============ FOOTER ============ */
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            border-top: 1px solid var(--slate-border);
+            color: var(--text-tertiary);
+            font-size: 0.9rem;
+            animation: fadeInUp 0.8s ease 0.8s backwards;
+        }
+
+        footer a {
+            color: var(--emerald-accent);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* ============ ANIMATIONS ============ */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ============ LOADING STATE ============ */
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-secondary);
+        }
+
+        .loading::after {
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--slate-border);
+            border-top-color: var(--emerald-accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-left: 0.5rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* ============ RESPONSIVE ============ */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            header {
+                padding: 2rem 0;
+            }
+
+            .header-intro h1 {
+                font-size: 2rem;
+            }
+
+            .expertise-grid,
+            .projects-grid,
+            .tech-grid,
+            .cert-list {
+                grid-template-columns: 1fr;
+            }
+
+            .tl-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="loading" class="loading">Loading profile...</div>
+        
+        <div id="content" style="display: none;">
+            <!-- HEADER -->
+            <header>
+                <div class="header-intro">
+                    <div class="subtitle" id="subtitle"></div>
+                    <h1 id="name"></h1>
+                    <p id="bio"></p>
+                    <div class="contact-links">
+                        <a id="email-link" href="#" target="_blank">📧 Email</a>
+                        <a id="linkedin-link" href="#" target="_blank">🔗 LinkedIn</a>
+                        <a id="github-link" href="#" target="_blank">💻 GitHub</a>
+                    </div>
+                </div>
+                <!-- Metrics will be inserted here -->
+            </header>
+
+            <!-- METRICS -->
+            <div class="metrics-grid" id="metrics-grid"></div>
+
+            <!-- EXPERTISE DOMAINS -->
+            <section class="expertise-section">
+                <h2 class="section-title">Core Expertise</h2>
+                <div class="expertise-grid" id="expertise-grid"></div>
+            </section>
+
+            <!-- PORTFOLIO PROJECTS -->
+            <section class="projects-section">
+                <h2 class="section-title">Portfolio Projects</h2>
+                <div class="projects-grid" id="projects-grid"></div>
+            </section>
+
+            <!-- TECHNICAL SKILLS -->
+            <section class="tech-stack-section">
+                <h2 class="section-title">Technical Stack</h2>
+                <div class="tech-grid" id="tech-grid"></div>
+            </section>
+
+            <!-- CERTIFICATIONS -->
+            <section class="certifications-section">
+                <h2 class="section-title">Professional Certifications</h2>
+                <div class="cert-list" id="cert-list"></div>
+            </section>
+
+            <!-- GITHUB STATS -->
+            <section class="github-stats-section" id="github-stats-section"></section>
+
+            <!-- THOUGHT LEADERSHIP -->
+            <section class="thought-leadership-section" id="tl-section" style="display: none;">
+                <h3>Thought Leadership</h3>
+                <div class="tl-content" id="tl-content"></div>
+            </section>
+
+            <!-- FOOTER -->
+            <footer>
+                <p>© 2024-2026 <span id="footer-name"></span> | Cloud Economics & Financial Technology Leadership</p>
+                <p>Last Updated: <span id="last-updated"></span></p>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        // Profile data will be loaded from profile-data.json
+        async function loadProfile() {
+            try {
+                const response = await fetch('./profile-data.json');
+                const data = await response.json();
+                renderProfile(data);
+            } catch (error) {
+                console.error('Error loading profile:', error);
+                document.getElementById('loading').innerHTML = 
+                    '❌ Error loading profile. Please check the profile-data.json file.';
+            }
+        }
+
+        function renderProfile(data) {
+            // Personal Info
+            document.getElementById('name').textContent = data.personal.name;
+            document.getElementById('subtitle').textContent = data.personal.subtitle;
+            document.getElementById('bio').textContent = data.summary.bio;
+            document.getElementById('footer-name').textContent = data.personal.name;
+            document.getElementById('last-updated').textContent = new Date().toLocaleDateString();
+
+            // Contact Links
+            document.getElementById('email-link').href = `mailto:${data.personal.email}`;
+            document.getElementById('linkedin-link').href = `https://${data.personal.linkedin}`;
+            document.getElementById('github-link').href = `https://${data.personal.github}`;
+
+            // Metrics
+            renderMetrics(data.metrics.kpis);
+
+            // Expertise Domains
+            renderExpertise(data.summary.expertise_domains);
+
+            // Projects
+            renderProjects(data.portfolio_projects);
+
+            // Tech Stack
+            renderTechStack(data.technical_skills);
+
+            // Certifications
+            renderCertifications(data.certifications);
+
+            // GitHub Stats
+            renderGitHubStats(data.github_stats);
+
+            // Thought Leadership
+            renderThoughtLeadership(data.thought_leadership);
+
+            // Show content, hide loading
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('content').style.display = 'block';
+        }
+
+        function renderMetrics(metrics) {
+            const grid = document.getElementById('metrics-grid');
+            grid.innerHTML = metrics.map(m => `
+                <div class="metric-card">
+                    <div class="metric-label">${m.label}</div>
+                    <div class="metric-value ${m.color}">${m.value}</div>
+                    ${m.description ? `<div class="metric-desc">${m.description}</div>` : ''}
+                </div>
+            `).join('');
+        }
+
+        function renderExpertise(domains) {
+            const grid = document.getElementById('expertise-grid');
+            grid.innerHTML = domains.map((domain, i) => `
+                <div class="expertise-card">
+                    <h3>${domain}</h3>
+                    <span class="skill-tag">${domain.split(' ')[0]}</span>
+                </div>
+            `).join('');
+        }
+
+        function renderProjects(projects) {
+            const grid = document.getElementById('projects-grid');
+            grid.innerHTML = projects.map((proj, i) => `
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-number">Project ${proj.id}</span>
+                        <h3>${proj.title}</h3>
+                    </div>
+                    <div class="project-body">
+                        <p>${proj.description}</p>
+                        <div class="project-impact">💰 ${proj.impact}</div>
+                        <div class="project-meta">
+                            <span class="project-status ${proj.status.toLowerCase().replace(' ', '')}">${proj.status}</span>
+                            <span>${proj.duration}</span>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function renderTechStack(skills) {
+            const grid = document.getElementById('tech-grid');
+            const categories = [
+                { title: 'Cloud Platforms', key: 'cloud_platforms' },
+                { title: 'Languages', key: 'languages' },
+                { title: 'Databases', key: 'databases' },
+                { title: 'Tools & Platforms', key: 'tools_platforms' }
+            ];
+
+            grid.innerHTML = categories.map(cat => `
+                <div class="tech-category">
+                    <h4>${cat.title}</h4>
+                    <div class="tech-items">
+                        ${skills[cat.key].map(item => `
+                            <span class="tech-item">${item}</span>
+                        `).join('')}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function renderCertifications(certs) {
+            const list = document.getElementById('cert-list');
+            list.innerHTML = certs.map(cert => `
+                <div class="cert-item">
+                    <h4>${cert.name}</h4>
+                    <p class="cert-issuer">${cert.issuer}</p>
+                    <p class="cert-year">Issued: ${cert.year}</p>
+                </div>
+            `).join('');
+        }
+
+        function renderGitHubStats(stats) {
+            const section = document.getElementById('github-stats-section');
+            section.innerHTML = `
+                <div class="github-stat">
+                    <div class="github-stat-value">${stats.repositories}</div>
+                    <div class="github-stat-label">Repositories</div>
+                </div>
+                <div class="github-stat">
+                    <div class="github-stat-value">${stats.total_stars}</div>
+                    <div class="github-stat-label">Stars</div>
+                </div>
+                <div class="github-stat">
+                    <div class="github-stat-value">${stats.followers}</div>
+                    <div class="github-stat-label">Followers</div>
+                </div>
+                <div class="github-stat">
+                    <div class="github-stat-value">${stats.languages.length}+</div>
+                    <div class="github-stat-label">Languages</div>
+                </div>
+            `;
+        }
+
+        function renderThoughtLeadership(tl) {
+            const section = document.getElementById('tl-section');
+            const content = document.getElementById('tl-content');
+            
+            if (tl.speaking_engagements && tl.speaking_engagements.length > 0) {
+                section.style.display = 'block';
+                content.innerHTML = `
+                    <div class="tl-category">
+                        <h4>🎤 Speaking Engagements</h4>
+                        ${tl.speaking_engagements.map(e => `
+                            <div class="tl-item">${e}</div>
+                        `).join('')}
+                    </div>
+                    <div class="tl-category">
+                        <h4>🌍 Community Leadership</h4>
+                        ${tl.community.map(c => `
+                            <div class="tl-item">${c}</div>
+                        `).join('')}
+                    </div>
+                `;
+            }
+        }
+
+        // Load profile on page load
+        document.addEventListener('DOMContentLoaded', loadProfile);
+    </script>
+</body>
+</html>
